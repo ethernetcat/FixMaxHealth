@@ -1,0 +1,4 @@
+name: FixMaxHealth
+version: ${project.version}
+main: biz.mcplay.fixmaxhealth.FixMaxHealth
+api-version: 1.13

@@ -15,9 +15,6 @@ public final class FixMaxHealth extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
-        if (e.getPlayer().getHealth() >= 20) {
-            e.getPlayer().setHealth(20.0);
-        }
         e.getPlayer().getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(20.0);
     }
 }
